@@ -1,0 +1,178 @@
+.path {
+  font-size: .8em;
+  font-family: 'IM Fell English',serif;
+  width: 100%;
+  padding: 3%;
+  border-radius: 5px;
+  box-sizing:border-box;
+  margin-top: 3%;
+  
+}
+
+.path p{
+  margin-bottom: 1%;
+}
+
+.pathtitle {
+  font-family:'Grenze Gotisch', 'serif';
+  margin-bottom: 1%;
+  margin-top: 0%;
+}
+
+.pathdesc{
+  margin-top: 1%;
+ 
+}
+#adoptspage{
+  background-color:#534646;
+  color:#E7E5DE;
+  padding-right: 0%;
+}
+
+#adoptspage h2{ 
+  font-size:2.5em;
+  /* Fallback: Set a background color. */
+  background-color: #C7D987;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(0deg,  #C7D987,#ED784A);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+#adoptspage a{
+  color: #FDCCC4;
+}
+
+#unicornpage{
+  background-color:#D0E2DB;
+  color:#3E4744;
+  padding-bottom: 0%;
+}
+#unicornpage h2{ 
+  font-size:2.5em;
+  /* Fallback: Set a background color. */
+  background-color: #C7D987;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(0deg,  #4A5E4D,#5AC3D8);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+#unicornpage a{
+  color:#892010;
+}
+
+.dividerflower{
+  display:flex;
+  align-content:center;
+  justify-content:center;
+  width: 100%;
+  overflow:  hidden;
+  margin-top: 3%;
+}
+
+#pathtaildivider {
+  display: flex; 
+}
+
+#pathtaillink {
+  width: 70%;
+}
+
+#dragontail{
+  width: 30%;
+  height: auto;
+}
+
+#adoptspath {
+  margin-right: 3%;
+}
+
+
+
+#eggpage{
+  background-color:#18342C;
+  color:#E5E3D2;
+  padding-bottom: 0%;
+}
+#eggpage a{
+  color:#F3A435;
+}
+#eggpage h2{ 
+  font-size:2.5em;
+  /* Fallback: Set a background color. */
+  background-color: #F87B72;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(0deg,  #F3A435,#F87B72);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+#footcontainer{
+  width:100%;
+  text-align: right;
+}
+
+#footprints{
+  max-width:100%;
+}
+
+
+
+
+#dollpage{
+  background-color:#F9E6E6;
+  color:#624B52;
+  padding-bottom: 2%;
+}
+#dollpage a{
+  color:#A14F68;
+}
+#dollpage h2{ 
+  font-size:2.5em;
+  /* Fallback: Set a background color. */
+  background-color: #AD2E4E;
+  
+  /* Create the gradient. */
+  background-image: linear-gradient(0deg,  #AD2E4E,#D87D99);
+  
+  /* Set the background size and repeat properties. */
+  background-size: 100%;
+  background-repeat: repeat;
+
+  /* Use the text as a mask for the background. */
+  /* This will show the gradient as a text color rather than element bg. */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}

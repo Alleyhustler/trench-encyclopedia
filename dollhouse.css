@@ -1,0 +1,116 @@
+#dollpagecontainer {
+  width: 100%;
+}
+
+#desc {
+  margin-bottom: 3%;
+}
+
+.dollentrycontainer {
+  display: block; 
+  margin-top: 8%;
+}
+
+.dollprofilepiccontainer {
+  width: 40%;
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+
+.dollprofilepicimage{
+  width: 100%;
+  image-rendering: auto;
+  border-radius: 50%;
+}
+
+.dollprofiletext {
+  width: 60%;
+  margin-left: 3%;
+  padding-right: 2%;
+  padding-left: 2%;
+  background-color: #D5D2C8;
+  font-size: .75em;
+  font-family: 'IM Fell English',serif;
+  box-shadow: 2px 3px 5px black;
+}
+
+.dollprofile {
+  display: flex;
+  width: 100%;
+}
+.dollgallery {
+  display: flex;
+  width: 100%;
+  margin-top: 1%;
+}
+
+.dollgalleryphotocontainer{
+  width: 33%;
+  margin: 1%;
+}
+
+.dollgalleryimg{
+  width: 100%;
+  height: auto;
+  image-rendering: auto;
+}
+
+.frameborder {
+   margin-bottom: 2%; 
+   text-align: center; 
+   padding: 4%; 
+}
+
+.brown1 {
+   border-image: url("images/frame1-brown.png") 30% round;
+   border-image-width: 30px;
+   background-color:#25252b;
+   border-image-slice: 14;
+}
+.brown2 {
+   border-image: url("images/frame2-brown.png") 30% round;
+   border-image-width: 30px;
+   border-image-slice: 16;
+}
+.brown3 {
+   border-image: url("images/frame3-brown.png") 30% round;
+   border-image-width: 30px;
+   border-image-slice: 14;
+}
+
+
+.gold1 {
+   border-image: url("images/frame1-gold.png") 30% round;
+   border-image-width: 30px;
+   background-color:#25252b;
+   border-image-slice: 14;
+}
+.gold2 {
+   border-image: url("images/frame2-gold.png") 30% round;
+   border-image-width: 30px;
+   border-image-slice: 16;
+}
+.gold3 {
+   border-image: url("images/frame3-gold.png") 30% round;
+   border-image-width: 30px;
+   border-image-slice: 14;
+}
+
+
+#unicornsprite{
+  float:right;
+  height: auto;
+  width: 16%;
+  padding-right: 10%;
+  
+}
+#unicornsprite img {
+  image-rendering: pixellated;
+  height: auto;
+  width: 130%;
+
+}
+
+
+

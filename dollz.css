@@ -1,0 +1,24 @@
+.row {
+  width: 100%;
+  display: flex;
+  
+}
+.dollcontainer{
+  box-sizing: border-box;
+  max-width: 50%;
+  height: auto;
+  margin: 2%;
+}
+.dollimg{
+  image-rendering: auto;
+  width: 100%; 
+  height: auto;
+}
+
+#dollbg {
+  width: 100%;
+  margin-top: 4%;
+  padding: 2%;
+  background-color: #D5D2C8;
+  box-sizing: border-box;
+}

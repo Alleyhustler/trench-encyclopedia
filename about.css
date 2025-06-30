@@ -1,0 +1,126 @@
+
+.divider {
+  width: 100%;
+  text-align:center;
+  margin-top: 3%;
+}
+
+.dividerimg {
+  width: 70%;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+.imagecontainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 5%;
+  
+}
+
+#houseimg{
+  width: 40%;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+#portraitimg{
+  width: 40%;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+.textcontainer {
+  width: 100%; 
+  font-size: .75em;
+  font-family: 'IM Fell English',serif;
+  background-color: #D5D2C8;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 3%;
+  box-sizing: border-box;
+}
+#paintingpicturecontainer{
+  width:100%;
+  text-align: center;
+}
+#paintingpicture {
+  width: 80%; 
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-2 {
+  width: 50%;
+}
+
+.portraits{
+  width: 100%;
+  height: auto;
+  image-rendering: auto;
+}
+
+#picrewgallery{
+  width: 80%; 
+  display: block;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.picrewgalleryrow{
+  width: 100%;
+  display: flex;
+  
+}
+
+.picrew{
+  width: 100%;
+  height: auto;
+  image-rendering: auto;
+}
+#bannerblock{
+  text-align: center;
+  display:block;
+}
+
+#bannerlinkimg {
+  image-rendering: pixelated;
+}
+  
+  
+textarea {
+  width: 100%;
+  word-wrap: break-word;
+  display:block;
+  background-color: black;
+  color: #c0bfb3;
+  }
+.codeblock {
+    width: 120px;
+    height: 50px;
+    display:block;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.defaultinterpolation {
+  image-rendering: auto;
+}
+
+.personalityresults{
+  text-align:center;
+  display:flex;
+  flex-direction: column;
+}
+
+.nomargin{
+  margin: 0px;
+}

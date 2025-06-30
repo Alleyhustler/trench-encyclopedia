@@ -1,0 +1,234 @@
+body {
+  background-color: #416977;
+  color: black;
+  font-family: 'Verdana',sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+
+}
+
+a {
+  color: #2E81AF;
+  text-decoration: none;
+}
+
+h1 {
+  color: #cc613c;
+  font-size: 18pt;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+b{
+  color: #1c5f85;
+}
+
+i{ color:#4b555b;
+}
+
+/* Mobile styles (up to 767px) */
+@media (max-width: 767px) {
+  body {
+  background-image: url('../images/blog/gymleader-bg.png');
+  background-size: 100%;
+  background-repeat: repeat;
+  image-rendering: pixelated;
+  }
+}
+
+/* Tablet/desktop styles (768px+) */
+@media (min-width: 768px) {
+  body {
+  background-image: url('../images/blog/gymleader-bg.png');
+  background-size: 50%;
+  background-repeat: repeat;
+  image-rendering: pixelated;
+  margin-bottom: 0;
+  padding-bottom:0;
+}
+}
+
+.pixelImage {
+  image-rendering: pixelated;
+}
+
+
+/* main body */
+#mainbody {
+  width: 80%;
+  background-color: #E3E3DC;
+  color: #1F1326;
+  padding: 4%;
+  margin: 0px;
+}
+
+.textSection {
+  margin: 2%;
+  padding: 3%;
+  border-style: solid;
+  font-size: 12pt;
+  border-radius: 5px;
+  border-color: #6F7785;
+  background-color:#EEEEE7;
+}
+
+.progressButton {
+  background-color: transparent;
+  border: none;
+  color: #cc613c;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12pt;
+  font-family: 'Courier New',serif;
+  font-weight: bold;
+}
+.progressButton:hover {
+  color: #a1411f;
+  cursor:pointer;
+}
+
+.horizontal-center {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+
+/* Mobile styles (up to 767px) */
+@media (max-width: 500px) {
+  #trainerCard{
+    width:90%;
+    display:block;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+  }
+  #trainerCardLeft{
+  width:80%;
+  }
+  #trainerCardRight{
+    width:80%;
+  }
+}
+
+/* Tablet/desktop styles (768px+) */
+@media (min-width: 501px) {
+  #trainerCard{
+    width:60%;
+    display:flex;
+    text-align:center;
+    align-items: center;
+    justify-content: center;
+  }
+  #trainerCardLeft{
+  width:50%;
+  }
+  #trainerCardRight{
+    width:50%;
+  }
+}
+
+#gymtrainerfit{
+  image-rendering: auto;
+  width:100%;
+  max-width:200px;
+}
+
+.generateTrainerPokemon{
+  background-color: transparent;
+  border: none;
+  color: #cc613c;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12pt;
+  font-family: 'Courier New',serif;
+  font-weight: bold;
+}
+.generateTrainerPokemon:hover {
+  color: #a1411f;
+  cursor:pointer;
+}
+
+
+.trainerPokemonImage{
+  image-rendering: auto;
+  max-width:50%;
+}
+
+.centerElements{
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+  display:flex;
+}
+
+#gymLeaderLabel{
+  color: #a1411f;
+  font-weight: bold;
+  font-size:14pt;
+}
+
+#leaderTrainerCard{
+  display:block;
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+}
+
+#gymLeaderImage{
+  width:100%;
+  max-width:250px;
+  image-rendering: auto;
+}
+
+#gymImage{
+  max-width: 80%;
+}
+
+
+  
+@media (max-width: 767px) {
+  #badgeDiv{
+  width: 100%;
+  display:block;
+  }
+  #badgeImageContainer{
+  width: 100%;
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+  }
+  #badgetextcontainer{
+    width:100%;
+  }
+  
+  #badgeImage{
+    width: 100%;
+    max-width: 150px;
+    image-rendering: auto;
+  }
+
+}
+
+/* Tablet/desktop styles (768px+) */
+@media (min-width: 768px) {
+  #badgeDiv{
+  width: 100%;
+  display:flex;
+  }
+  #badgeImageContainer{
+  width: 50%;
+  }
+
+  #badgeImage{
+    width: 100%;
+    max-width: 200px;
+    image-rendering: auto;
+  }
+}

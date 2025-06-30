@@ -1,0 +1,168 @@
+
+body {
+  background-color:#FBFAF4;
+  /* background: linear-gradient(#1B1D1C, #1A1A1A); */
+  background: linear-gradient(#CECDCA, #FBFAF4);
+  background-attachment: fixed; 
+  color: black;
+  font-family: 'IM Fell English',serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#fullbodywithback{
+  display:block;
+}
+
+
+/* Tablet/desktop styles (768px+) */
+@media (min-width: 768px) {
+  #mainbody {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  #intro_text{
+    display: block;
+    width: 40%;
+    margin-top:1%;
+    margin-bottom:5%;
+    box-sizing: border-box;
+  }
+  
+  #banner{
+    width: 40%;
+    margin-right: 3%;
+    margin-top:1%;
+    margin-bottom:5%;
+    box-sizing: border-box;
+  }
+  .imagebanner{
+  display: flex;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+}
+}
+
+/* Mobile styles (up to 767px) */
+@media (max-width: 767px) {
+  #mainbody {
+  display: flex;
+  flex-direction: column; /* Stack the child divs vertically */
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  #intro_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top:1%;
+    margin-bottom:5%;
+    box-sizing: border-box;
+  }
+  
+  #banner{
+    width: 80%;
+    margin-right: 3%;
+    margin-top:1%;
+    margin-bottom:2%;
+    box-sizing: border-box;
+  }
+  .imagebanner{
+  display: flex;
+  width:60%;
+  align-items: center;
+  justify-content: center;
+  }
+
+}
+
+
+#bannerimg{
+  width:100%;
+    /* Add a drop shadow */
+
+}
+
+#gobacklink{
+  color: #A82400;
+  text-decoration: none;
+}
+
+#gobacklink:hover {
+  text-decoration: underline;
+}
+#progresstracker{
+   display: flex;
+  justify-content: center; /* Centers the table horizontally */
+}
+#progresstable {
+  width: 70%; 
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:3%;
+  color:#3E3E3C;
+  border-collapse: collapse;
+  box-sizing: border-box;
+}
+#progresstable th, td {
+      border: 1px solid #3E3E3C; /* Add borders to cells */
+      padding: .5%;
+      text-align: center; /* Align text to the left */
+    }
+#progresstable thead {
+     background-color:#30453C;
+     color:#D8D8D4;
+} 
+.done {
+     background-color:#CFCCC4;
+}  
+    
+.textbox{
+  padding:3%;
+  display:block;
+  background-color:#CFCCC4;
+  color:#3E3E3C;
+  margin-bottom:2%;
+  padding-left:5%;
+  filter: drop-shadow(1px 1px 5px grey);  
+  
+  /*https://stackoverflow.com/questions/75671911/ripped-paper-effect-with-css-mask*/
+  -webkit-mask: 
+  url('images/beastfall/papermask.png') 
+  top   /auto 50px repeat-x,
+  linear-gradient(white, white) no-repeat
+  center/100% calc(100% - 2*50px),
+  url('images/beastfall/papermask-down.png') 
+  bottom/auto 50px repeat-x;
+}
+
+.nametext{
+  margin-bottom:1%;
+  }
+  
+.desctext{
+  margin-top:1%;
+}
+
+.highlighttext{
+  font-family: 'Grenze Gotisch',serif;
+}
+
+.smallbannerimg{
+  width:20%;
+  padding:2%;
+}
+.middlebannerimg{
+  width:30%;
+  padding:2%;
+}

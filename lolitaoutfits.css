@@ -1,0 +1,31 @@
+.outfitRowContainer{
+  width: 100%; 
+  display: flex;
+}
+
+.outfitContainer{
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.outfitText{
+  width: 100%; 
+  font-size: .75em;
+  font-family: 'IM Fell English',serif;
+  background-color: #D5D2C8;
+  padding: 1%;
+  margin-top: 1%;
+  box-sizing: border-box;
+  box-shadow: 2px 3px 5px black;
+}
+
+.outfitImage{
+  height: 500px;
+  filter: drop-shadow(2px 3px 2px #000000);
+  image-rendering: auto;
+}
+
+.cols-3 {
+  width: 33%; 
+}

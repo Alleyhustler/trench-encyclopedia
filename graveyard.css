@@ -1,0 +1,29 @@
+#contentcontainer {
+  display: block;
+}
+
+.projectcontainer {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  
+}
+
+.imagecontainer {
+  max-width: 40%;
+  max-height: 100%;
+}
+
+.projectimg {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.desccontainer {
+  width: 60%;
+  margin-left: 2%;
+  font-size: .75em;
+  font-family: 'IM Fell English',serif;
+  background-color: #D5D2C8;
+  padding: 4%;
+}

@@ -1,0 +1,79 @@
+#lightbg {
+  font-family: 'IM Fell English',serif;
+  background-color: #D5D2C8;
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+  padding: 2%;
+}
+
+#egg{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  padding-top:3%;
+}
+
+#inventory{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+
+#inventoryitems {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom:1%;
+}
+
+#collapseinventory{
+  text-align: center;
+}
+
+.inventoryelement{
+  margin-left:10px;
+}
+
+.actionlabel{
+  display:flex;
+  justify-content:center;
+  margin-bottom: 0%;
+  font-style: italic;
+  font-size:1em;
+}
+
+.collapsebutton{
+  all: unset;
+  
+}
+.collapsebutton:focus { 
+  outline: revert;
+  }
+  
+.collapsebutton:hover { 
+  color:#9D1515;
+  }
+
+.collapsable{
+  display: none;
+}
+
+#blankinventorylabel{
+  display:flex;
+  justify-content:center;
+  margin-bottom: 0.5%;
+  margin-top: 0%;
+  font-style: italic;
+  font-size: .8em;
+}
+
+.guidebooktxt{
+  font-size: .9em;
+}
+
+.redink {
+  color:#9D1515;
+  }
+

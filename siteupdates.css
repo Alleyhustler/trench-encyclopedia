@@ -1,0 +1,27 @@
+#desc {
+  margin-top: 1%;
+}
+
+#deskcontainer {
+ margin-top: 8%; 
+ display: block;
+ width: 100%;
+ text-align: center; 
+}
+
+#deskimage {
+  min-width: 60%;
+  max-width: 60%;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+#newslogcontainer {
+  background-color:#D5D2C8;
+  margin-top: 2%;
+  padding: 3%;
+  font-size: .75em;
+  color: #272624;
+  font-family: 'IM Fell English',serif;
+  box-shadow: 2px 3px 5px black;
+}

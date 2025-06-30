@@ -1,0 +1,14 @@
+#gallerybody {
+  display: flex;
+  width: 100%;
+  margin-top: .5%;
+  margin-bottom: .5%;
+}
+
+.thirdcol {
+  width: 33%;
+}
+
+#fancybox-img {
+  image-rendering: auto;
+}

@@ -1,0 +1,125 @@
+<!--
+
+                 ___-----------___
+           __--~~                 ~~--__
+       _-~~                             ~~-_
+    _-~                                     ~-_
+   /                                           \
+  |                                             |
+ |                                               |
+ |                                               |
+|                                                 |
+|                                                 |
+|                                                 |
+ |                                               |
+ |  |    _-------_               _-------_    |  |
+ |  |  /~         ~\           /~         ~\  |  |
+  ||  |             |         |             |  ||
+  || |               |       |               | ||
+  || |              |         |              | ||
+  |   \_           /           \           _/   |
+ |      ~~--_____-~    /~V~\    ~-_____--~~      |
+ |                    |     |                    |
+|                    |       |                    |
+|                    |  /^\  |                    |
+ |                    ~~   ~~                    |
+  \_         _                       _         _/
+    ~--____-~ ~\                   /~ ~-____--~
+         \     /\                 /\     /
+          \    | ( ,           , ) |    /
+           |   | (~(__(  |  )__)~) |   |
+            |   \/ (  (~~|~~)  ) \/   |
+             |   |  [ [  |  ] ]  /   |
+              |                     |
+               \                   /
+                ~-_             _-~
+                   ~--___-___--~
+
+
+If you're trying to be clever in finding secret items- good job! I didn't put one here actually, but here are some hints:
+- There are currently 5 items
+- One is a skull, and it's where you'd expect it to be
+- One is an animal, and hidden among others
+- There is a book, but it's not the item on the bookshelf
+
+Thanks to https://ascii.co.uk/art/skulls for the skull
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<!-- Mirrored from goblincat.neocities.org/dragonnest by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Jun 2025 18:53:28 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dragon's nest</title>
+    <link rel='icon' href='favicon.png' type='image/x-icon' >
+    <script src="navbar.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">  
+    <link href="dragonnest.css" rel="stylesheet" type="text/css" media="all">  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pirata+One|Grenze+Gotisch|IM+Fell+English">
+   
+  </head>
+  <body>
+  <div class = "entireBody">
+  
+     <header class="banner">
+     <a href="index.html"><img src="images/sitebanner.png" id="bannerimage" alt="Back to homepage"></a>
+     </header>
+     
+     <nav id = "navbar"></nav>
+     <main>
+ 
+    <div id="contentcontainer">
+      <div id="lightbg">
+      <h1>The Dragon's Nest</h1>
+      <section id="egg">
+      <!-- Egg sprite -->
+      <img src="images/dragongame/dragonegg.png" alt="A golden egg">
+      </section>
+      
+      <section id="descriptiontext">
+      <!-- Description -->
+      <h2 class="actionlabel" > <button class="collapsebutton" onClick="opencollapse('collapseguidebook',this)"> ► Check guidebook</button></h2>
+      <div class="collapsable" id="collapseguidebook">
+      <p class="guidebooktxt" >
+        "The fact that dragons have hoards is well-known, however the relationship is deeper than we used to believe. These items are so important that what a dragon chooses to collect at a young age has effects on its physical development. This was surprising to many researchers, as the dragons they believed were distinct breeds were actually closely related, but had different tastes in treasure."       
+      </p>
+      <p class="guidebooktxt">
+      Below the passage, a note is scrawled in red ink:
+      </p>
+      <p class="redink guidebooktxt">"The manor has many <b>magical items</b> that could serve as a hoard for a young dragon. If you're able to find one and sucessfully hatch an egg, the hatchling may serve as a useful companion in your journey." </p>
+      <p class="redink guidebooktxt">"Here's a hint for the first item: You've already seen it if you came through the <b>entrance</b> of the manor." </p>
+      </div>
+      </section>
+      
+      <section id="inventory">
+      <!-- Inventory -->
+      <h2 class="actionlabel"><button class="collapsebutton"  onclick="opencollapse('collapseinventory',this)"> ► Check your inventory</button></h2>
+      <div class="collapsable" id="collapseinventory">
+      <p class="guidebooktxt">Click on an item to offer it to the dragon egg.</p>
+      <div id="inventoryitems">
+       
+        </div>
+      </div>
+      </section>
+     
+      
+      </div>
+    </div>
+    
+    </main>
+<footer class="doorfooter">
+  
+    <a href="adopts.html"><img src="images/door.png" class="doorimg" alt="Back to adopts page"></a>
+     <div class="footertext"><p><i>Go back to the garden</i></p></div>
+  </footer>
+  
+  </div>
+
+  <script src="dragonnest.js"></script>
+  </body>
+
+<!-- Mirrored from goblincat.neocities.org/dragonnest by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Jun 2025 18:53:29 GMT -->
+</html>

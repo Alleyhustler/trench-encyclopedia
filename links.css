@@ -1,0 +1,49 @@
+.contentcontainer {
+  width: 100%;
+  display: flex;
+}
+
+.label{
+  font-family: 'Grenze Gotisch', serif;
+  font-size: 2em;
+  color: #EA523E;
+}
+
+.divider {
+  width: 100%;
+  text-align:center;
+  margin-top: 3%;
+}
+
+.dividerimg {
+  width: 70%;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  background-color: #D5D2C8;
+  font-size: .85em;
+  font-family: 'IM Fell English',serif;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+table {
+ width: 100%; 
+}
+
+.widercol {
+ column-width: 10rem; 
+}
+
+.banner {
+  image-rendering: auto;
+}
+
+.label h2 {
+  margin:0%;
+  font-size:.9em;
+}

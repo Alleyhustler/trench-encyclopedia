@@ -1,0 +1,141 @@
+#contentcontainer{
+  width: 100%;
+}
+
+.actiontext{
+  padding: 2%;
+  padding-left: 5%;
+  font-size: .8em;
+  background-color: #1e1d1f;
+  color: #C1BCB6;
+  margin-top:0%;
+  margin-bottom: 0%;
+}
+
+.textcontainer {
+  width: 100%; 
+  font-size: .75em;
+  font-family: 'IM Fell English',serif;
+  background-color: #D5D2C8;
+  padding: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 1%;
+  box-sizing: border-box;
+}
+
+.textcontainer h2{
+  color: #A82400;
+}
+
+.windowcontainer {
+  height: auto;
+  width: 100%; 
+  max-width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top:2%;
+  margin-bottom:2%;
+  /*background-image: url("images/adopts/autumnmountainlandscape.jpg");
+  background-size: 100%;
+  image-rendering: auto;*/
+
+}
+
+#bgwallpaper1 {
+  background-image: url("images/adopts/wallpaper1.png");
+  background-size: 100%;
+}
+
+#bgwallpaper2 {
+  background-image: url("images/adopts/wallpaper2.png");
+  background-size: 100%;
+}
+
+.backgroundimage{
+  z-index: 1;
+  image-rendering: auto;
+  width: 100%;
+  height: auto;
+}
+
+.adoptimage{
+  z-index: 2;
+  position: absolute;
+  transform-origin: center center;
+}
+
+.sticker {
+  margin:2%;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
+/* ADOPT IMAGES */
+#autumn1{
+  top: 20%; /* Set the top position for the first image */
+  left: 30%; /* Set the left position for the first image */
+  
+}
+
+#autumn2{
+  top: 5%; /* Set the top position for the first image */
+  left: 70%; /* Set the left position for the first image */
+}
+
+#rainforest1{
+  top: 20%; /* Set the top position for the first image */
+  left: 70%; /* Set the left position for the first image */
+  
+}
+
+#rainforest2{
+  top: 20%; /* Set the top position for the first image */
+  left: 20%; /* Set the left position for the first image */
+}
+
+#garden1{
+  top: 10%; /* Set the top position for the first image */
+  left: 20%; /* Set the left position for the first image */
+}
+
+#sea1{
+  top: 10%; /* Set the top position for the first image */
+  left: 60%; /* Set the left position for the first image */
+}
+
+#aurora1{
+  top: 15%; /* Set the top position for the first image */
+  left: 20%; /* Set the left position for the first image */
+}
+
+#sticker1 {
+  top: 15%; /* Set the top position for the first image */
+  left: 10%; /* Set the left position for the first image */
+  
+}
+
+.petholder{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  text-align: center;
+  image-rendering: pixelated;
+}
+
+.resize-image{
+  transform: scale(.75);
+  margin:-.9%;
+}
+
+
+.divider {
+  width: 100%;
+  text-align:center;
+  margin-top: 2%;
+  margin-bottom:2%;
+}
+
+.dividerimg {
+  width: 70%;
+  height: auto;
+  image-rendering: pixelated;
+}

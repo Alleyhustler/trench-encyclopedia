@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  
+<!-- Mirrored from goblincat.neocities.org/blog/gymleader by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Jun 2025 18:53:44 GMT -->
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokemon gym leader</title>
+    <link rel='icon' href='../favicon.png' type='image/x-icon' >
+    <script src="../randompage.js"></script>
+    <link href="gymleader.css" rel="stylesheet" type="text/css" media="all">  
+  </head>
+  <body>
+    <div id="mainbody">
+    <!--go back-->
+    <section>
+    <a href="blog.html">← Go back</a>
+    </section>
+    
+    <!--intro-->
+    
+    <!--TODO:  button to random gen teams, button to random gen gym leader, plan gym trainer section-->
+
+    <section class="infoSection" id="introSection">
+    <div class="textSection">
+    <h1>Outside the Gym</h1>
+    <div class="horizontal-center">
+      <img src="../images/blog/gymleader-gymsprite.png" alt="An overworld sprite of a Pokemon gym" class="pixelImage" id="gymImage">
+    </div>
+    <p><i>You approach the town's Pokemon Gym, which seems to be in an arcade. You're ready to take on the Gym Challenge and defeat the leader!</i></p>
+    <p>This is a page for my Pokemon Gymleadersona! I love games (especially gatcha games haha), weird gimmicks, and collecting things, so the theme of this gym is <B>Pokemon based on inanimate objects</b> and <b>gatcha</b>.</p>
+    </div>
+    <div class="horizontal-center">
+      <button class="progressButton"  onclick="openSection('gymTrainers')"> ► Enter Gym</button>
+    </div>
+    </section>
+
+    <!--gym trainers-->
+    <section class="infoSection" id="gymTrainers" style= "display: none;">
+    <div class="textSection">
+    <h1>The Gym Challenge</h1>
+    <div class="centerElements">
+    <div id="trainerCard">
+    
+    <div id="trainerCardLeft">
+      <img src="../images/blog/gymleader-trainer.png" alt="Pokemon trainer outfit: white hoodie, white headphones and legwarmers with yellow, blue, and red accents. Inspired by tenshi kawaii style." id="gymtrainerfit">
+    </div>
+    
+    <div id="trainerCardRight">
+      <div id="gymTrainerPokemon">
+      </div>
+      <button class="generateTrainerPokemon"  onclick="getGymPokemon()"> ► Challenge Gym Trainer</button>
+    </div>
+    
+    </div>
+    </div>
+    
+    <p><i>The Gym's interior is a colorful and flashing arcade, with rows of UFO catchers and gatchapon machines. The center is a stage, where four Gym Trainers wait for challengers to put on a show for visitors. </i></p>
+    <p>The main gimmick of this gym is <b>random battles!</b> Gym trainers will fight with four Pokemon randomly selected from a pool. The player will also only be able to use a maximum of four Pokemon, randomly chosen from the team they entered the gym with. </p>
+    <p><i>Click the <B>"Challenge the Gym Trainer"</b> button and see what teams you're up against!</i></p>
+      
+    </div>
+    <div class="horizontal-center">
+      <button class="progressButton"  onclick="openSection('gymLeader')"> ► Challenge Gym Leader</button>
+    </div>
+    </section>
+    
+    <!--gym leader-->
+    <section class="infoSection" id="gymLeader"  style= "display: none;">
+    
+    <div class="textSection">
+    <h1>The Gym Leader</h1>
+    <div id="leaderTrainerCard">
+    <div id="leaderContainer" class="centerElements">
+    <img src="../images/blog/gymleader-base.png" id="gymLeaderImage" alt="Gym leader design. A girl with a face-covering helmet, a white lolita skirt, an ita bag, and an oversized colorful keychain chain on her back.">
+    
+    </div>
+    <div id="leaderPokemonContainer" class="centerElements"></div>
+    <p id="gymLeaderLabel">Leader Variant: Base</p>
+    <button class="generateTrainerPokemon" onclick="getLeaderPokemon()"> ► Roll for Gym Leader</button>
+    </div>
+    
+    <p><i>The back room of the Gym has colorful translucent pneumatic tubes lining the ceiling with items shooting through them, and oversize capsules tumbling around in the transparent walls. It reminds you of the interior of a gatchapon machine.</i></p>
+    <p>Similar to the Gym Trainer battles, the player can only battle with up to four randomly chosen Pokemon from their team. However, if they defeated all four Gym Trainers without losing, they get one reroll. The Gym Leader has a pool of <b> four themed teams</b> that she will also randomly roll for to battle the player with!</p>
+    <p><i>Click the "Roll for Gym Leader" button and see what team and theme you're up against!</i></p>
+    
+    </div>
+    <div class="horizontal-center">
+    <button class="progressButton"  onclick="openSection('win')"> ► Get Badge</button>
+    </div>
+    </section>
+    
+    <!--win-->
+    <section class="infoSection" id="win"  style= "display: none;">
+    <div class="textSection">
+    <h1>After the Battle</h1>
+    <div id="badgeDiv">
+      <div id="badgeImageContainer">
+      <img src="../images/blog/gymleader-badge.png" alt="Pokemon gym badge with a bow and a 6-sided die" id="badgeImage">
+      </div>
+      <div id ="badgetextcontainer">
+      <p><i>Congrats on earning the <b>Luck Badge</b>!</i></p>
+      <p>After defeating the Gym Leader, the gym turns into an arcade where you can win tokens and pull for rare items.</p>
+      <P>Thank you for visiting the Gym!</p>
+      <p>The background and gym sprite at the top of the page are edited official Pokemon sprites. <A href="https://www.spriters-resource.com/ds_dsi/pokemonblackwhite/sheet/46250/">BG source</a>, <a href="https://www.spriters-resource.com/game_boy_advance/pokemonrubysapphire/sheet/8192/">Gym source</a>.</p>
+      </div>
+    </div>
+    </div>
+    <p><a href="blog.html">← Go back</a></p>
+    <p><a href="#" onclick="randomPage()" alt="Random page">Continue to wander →</a></p>
+    </section>
+    
+    </div>
+  <script src="../randompage.js"></script>
+  <script src="gymleader.js"></script>
+  
+  
+  
+  </body>
+  
+
+<!-- Mirrored from goblincat.neocities.org/blog/gymleader by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 30 Jun 2025 18:53:46 GMT -->
+</html>

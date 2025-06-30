@@ -1,0 +1,104 @@
+/*a:visited {
+  text-decoration: none;
+  color: #2F585F;
+}
+
+#desc a:visited {
+  text-decoration: none;
+  color: #6A9D9B;
+}*/
+
+mark {
+    background: #DED1C6;
+    color: #33332E;
+}
+h2 {
+  font-family: 'IM Fell English',serif;
+  color: #e73e27;
+}
+
+figure {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 2%;
+}
+
+figcaption{
+  width: 70%;
+  font-style: italic;
+  color: #6B6662;
+  font-size: .8em;
+  margin-top:1%;
+  display:inline-block;
+}
+
+.figureimgs {
+    display: flex;  
+    width: 100%;
+    justify-content: center;
+}
+
+.thirdsimg {
+  max-width: 30%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.fourthsimg {
+  max-width: 25%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.halfimg {
+  max-width: 45%;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: auto;
+}
+
+.singleimg {
+  max-width: 70%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+
+
+.section{
+  font-size: .9em;
+  font-family: 'PT Serif',serif;
+  background-color: #E7E6DD;
+  color: #33332E;
+  padding:1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  margin-top: 3%;
+}
+
+.section p{
+  text-indent: 2em;
+}
+
+.fig {
+  image-rendering:auto;
+}
+
+.dividerdiv {
+  display: flex;  
+  width: 100%;
+  justify-content: center; 
+}
+
+.dividercomputerimg{
+   image-rendering:pixellated;
+   max-width: 16%;
+   height: auto;
+}
+
+
+

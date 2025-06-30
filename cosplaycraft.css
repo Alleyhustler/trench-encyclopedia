@@ -1,0 +1,89 @@
+
+
+.projectcontainer {
+  width: 100%; 
+  margin-top: 5%;
+}
+
+.descriptioncontainer {
+  width: 100%; 
+  font-size: .75em;
+  font-family: 'IM Fell English',serif;
+  background-color: #D5D2C8;
+  padding: 3%;
+  margin-top: 1%;
+  box-sizing: border-box;
+  box-shadow: 2px 3px 5px black;
+  
+}
+
+.gallerycontainer {
+  width: 100%; 
+  display: flex;
+}
+
+.photocontainer {
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.cols-4 {
+  width: 25%; 
+}
+
+.cols-2 {
+  width: 50%; 
+}
+
+.photoimg {
+  width: 100%;
+  height: auto;
+  image-rendering: auto;
+  aspect-ratio: 1; /* will make width equal to height (500px container) */
+  object-fit: cover; /* use the one you need */
+}
+
+.frameborder {
+   text-align: center; 
+   padding: 4%; 
+}
+
+.brown1 {
+   border-image: url("images/frame1-brown.png") 30% round;
+   border-image-width: 30px;
+   background-color:#25252b;
+   border-image-slice: 14;
+}
+.brown2 {
+   border-image: url("images/frame2-brown.png") 30% round;
+   border-image-width: 30px;
+   border-image-slice: 16;
+}
+.brown3 {
+   border-image: url("images/frame3-brown.png") 30% round;
+   border-image-width: 30px;
+   border-image-slice: 14;
+}
+
+
+.gold1 {
+   border-image: url("images/frame1-gold.png") 30% round;
+   border-image-width: 30px;
+   background-color:#25252b;
+   border-image-slice: 14;
+}
+.gold2 {
+   border-image: url("images/frame2-gold.png") 30% round;
+   border-image-width: 30px;
+   border-image-slice: 16;
+}
+.gold3 {
+   border-image: url("images/frame3-gold.png") 30% round;
+   border-image-width: 30px;
+   border-image-slice: 14;
+}
+
+
+

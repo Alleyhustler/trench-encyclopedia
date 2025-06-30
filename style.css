@@ -1,0 +1,271 @@
+
+body {
+  background-color: #3c3a3b;
+  color: black;
+  font-family: 'Times New Roman',serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  color: #A82400;
+  text-decoration: none;
+}
+
+.lightlink a {
+  color: #FF673D;
+}
+
+/*a:visited {
+  text-decoration: none;
+  color: #717f94;
+}*/
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile styles (up to 767px) */
+@media (max-width: 767px) {
+  body {
+  background-image: url('images/wallpaperbg.png');
+  background-size: 100%;
+  background-repeat: repeat;
+  image-rendering: pixelated;
+  }
+}
+
+/* Tablet/desktop styles (768px+) */
+@media (min-width: 768px) {
+  body {
+  background-image: url('images/wallpaperbg.png');
+  background-size: 50%;
+  background-repeat: repeat;
+  image-rendering: pixelated;
+  margin-bottom: 0;
+  padding-bottom:0;
+}
+
+}
+
+/* Mobile styles (up to 767px) */
+@media (max-width: 767px) {
+  .entireBody {
+    width: 100%;
+  }
+}
+
+/* Tablet styles (768px to 1023px) */
+@media (min-width: 768px) {
+  .entireBody {
+    width: 50%;
+  }
+}
+
+
+.banner {
+  width: 100%;  
+}
+
+#bannerimage{
+  width: 100%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+  image-rendering: pixelated;
+}
+
+#bannerimage:hover {
+  cursor:pointer;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  margin-top: .5%;
+  margin-bottom: .5%;
+}
+
+.column {
+  /*padding: 20px;*/
+  box-sizing: border-box;
+  margin: 0.5%;
+}
+
+.narrowCol {
+  width: 25%;
+}
+
+.bigCol {
+  /*flex:1;*/
+  width: 50%;
+}
+
+
+.gallerycolcontainer {
+  display: flex;
+  width: 100%;
+}
+.gallerycol {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 1%;
+}
+
+
+.gallerydiv {
+  overflow: hidden;
+  max-width:100%;
+  margin-top: 2%;
+}
+
+.galleryimage{
+  max-width:100%;
+  min-width: 100%;
+  display: block;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+.border {
+  border-style: solid;
+}
+
+
+/* project blocks */
+.projectBlock {
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+.projectImage {
+ margin-bottom: 2%; 
+ text-align: center; 
+ border-image: url("images/newsframe.png") 30% round;
+ border-image-width: 30px;
+ padding: 4%; 
+ background-color:#25252b;
+}
+
+.projectImageIMG {
+  max-width: 100%;
+  max-height: 100%;
+  image-rendering: auto;
+}
+
+.projectDesc {
+  background-color: #D5D2C8;
+  border-style: solid;
+  box-shadow: 2px 3px 5px black;
+  padding: 2%;
+  font-size: .8em;
+  font-family:'IM Fell English',serif;
+}
+
+#desc{
+  padding: 2%;
+  padding-left: 5%;
+  font-size: .8em;
+  background-color: #1e1d1f;
+  color: #C1BCB6;
+  margin-top:8%;
+  margin-bottom: 0%;
+  
+}
+#descheader {
+  font-family: 'Grenze Gotisch', serif;
+  color: #e73e27;
+}
+/* thankyou w3schools */
+/* https://www.w3schools.com/howto/howto_js_dropdown.asp */
+
+/* Dropdown Button */
+#navbar {
+  width: 100%;
+  margin: 2%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+.dropbtn {
+  background-color: #1e1e21;
+  color: #d3cac4;
+  padding: 10px 16px;
+  font-size: 1em;
+  border: none;
+  cursor: pointer;
+  font-family: 'IM Fell English',serif;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #25252b;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #25252b;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #d3cac4;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: 'IM Fell English',serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.candleimg {
+  height: 100%;
+  width: auto;
+  image-rendering: pixelated;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.doorfooter {
+  width:100%;
+  margin-top: 8%;
+  margin-bottom:3%;
+  text-align: center;
+  display:block;
+}  
+.footertext{
+  padding: 1%;
+  font-size: .8em;
+  background-color: #1e1d1f;
+  color: #C1BCB6;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.doorimg{
+  width: 20%;
+  height: auto;
+  image-rendering: pixelated;
+}
+
+
+  
+  
+  
